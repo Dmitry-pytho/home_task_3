@@ -40,3 +40,5 @@ def list_of_astro():
     astro = r.json()
     number_of_astro = str(len(astro["people"]))
     return number_of_astro
+
+
